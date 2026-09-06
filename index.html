@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORTRESS_BACKDOOR // DARK_8BIT_ARCHIVE</title>
+  <style>
+    :root {
+      --bg-color: #0a0a0a;
+      --text-color: #33ff33;
+      --text-dim: #1a881a;
+      --accent: #ff3366;
+      --border: #1f331f;
+      --card-bg: #0d120d;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: "Courier New", Courier, monospace, "Noto Sans JP";
+      padding: 24px 16px;
+      line-height: 1.6;
+      max-width: 840px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .status-line {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 1.4rem;
+      font-weight: normal;
+      letter-spacing: 1px;
+      color: var(--text-color);
+      text-shadow: 0 0 8px rgba(51, 255, 51, 0.4);
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+    .track-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .track-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--text-dim);
+      padding: 14px 18px;
+      border-radius: 2px;
+      transition: all 0.2s ease;
+    }
+    .track-card:hover {
+      border-left-color: var(--text-color);
+      box-shadow: 0 0 12px rgba(51, 255, 51, 0.15);
+    }
+    .track-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .track-title {
+      font-size: 1.05rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    .track-meta {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+    .track-desc {
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+    audio {
+      width: 100%;
+      height: 36px;
+      outline: none;
+      filter: invert(90%) hue-rotate(180deg);
+    }
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+    }
+    .blink {
+      animation: blinker 1.2s infinite;
+    }
+    @keyframes blinker {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="status-line">
+      <span>SYS_PROTOCOL: AG_DARK_CHIPTUNE_V1</span>
+      <span>AUTONOMOUS_PIPELINE: ACTIVE <span class="blink">●</span></span>
+    </div>
+    <h1>// FORTRESS_BACKDOOR: DARK_8BIT_ARCHIVE</h1>
+    <div class="subtitle">電脳の廃墟と終わった世界の残響。無人要塞が深夜に自立生成する不可視の音響アーカイブ。</div>
+  </header>
+
+  <div id="track-container" class="track-list">
+    <!-- Tracks will be rendered here -->
+  </div>
+
+  <footer>
+    <div>[ANTIGRAVITY AUTONOMOUS AUDIO REPOSITORY] // REVISION: 2026.09</div>
+    <div>ALL SOUNDS GENERATED MATHEMATICALLY ON LOCAL HARDWARE. NO EXTERNAL APIS.</div>
+  </footer>
+
+  <script>
+    const tracks = [
+      {
+        "id": "001",
+        "date": "2026-09-06",
+        "title": "Sector_404_Corrupted",
+        "audio": "audio/Sector_404_Corrupted.wav",
+        "duration": "15s",
+        "scale": "D Diminished / Corrupted Minor",
+        "bpm": 120,
+        "desc": "電脳の廃墟。D2低周波パルスと1.8%デチューン矩形波リードによる不協和音アルペジオ。8bitクラッシュによるフェードアウト。"
+      }
+    ];
+
+    // Try to load dynamically from archive.json if hosted, fallback to inline
+    fetch('archive.json')
+      .then(res => res.json())
+      .then(data => renderTracks(data))
+      .catch(() => renderTracks(tracks));
+
+    function renderTracks(list) {
+      const container = document.getElementById('track-container');
+      container.innerHTML = '';
+      list.slice().reverse().forEach(t => {
+        const card = document.createElement('div');
+        card.className = 'track-card';
+        const audioSrc = t.audio_path || t.audio || `audio/${t.filename}`;
+        card.innerHTML = `
+          <div class="track-header">
+            <span class="track-title">[#${t.id}] ${t.title}</span>
+            <span class="track-meta">${t.date} | ${t.duration_sec || 15}s | ${t.scale || 'Dark 8-bit'}</span>
+          </div>
+          <div class="track-desc">${t.description || t.desc || ''}</div>
+          <audio controls preload="none">
+            <source src="${audioSrc}" type="audio/wav">
+            Your browser does not support audio element.
+          </audio>
+        `;
+        container.appendChild(card);
+      });
+    }
+  </script>
+</body>
+</html>

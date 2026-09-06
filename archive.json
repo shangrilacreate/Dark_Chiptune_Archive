@@ -1,0 +1,26 @@
+﻿[
+    {
+        "id":  "001",
+        "date":  "2026-09-06",
+        "title":  "Sector_404_Corrupted",
+        "filename":  "Sector_404_Corrupted.wav",
+        "audio_path":  "audio/Sector_404_Corrupted.wav",
+        "note_path":  "notes/Sector_404_Corrupted.md",
+        "duration_sec":  15,
+        "bpm":  120,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "電脳の廃墟。低周波パルスとデチューンされた矩形波による不協和音アルペジオ。"
+    },
+    {
+        "id":  "002",
+        "date":  "2026-09-06",
+        "title":  "Buffer_998_Corrupted",
+        "filename":  "2026-09-06_Buffer_998_Corrupted.wav",
+        "audio_path":  "audio/2026-09-06_Buffer_998_Corrupted.wav",
+        "note_path":  "notes/2026-09-06_Buffer_998_Corrupted.md",
+        "duration_sec":  15,
+        "bpm":  120,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #002 with D Diminished / Corrupted Minor."
+    }
+]
