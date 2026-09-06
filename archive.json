@@ -22,5 +22,17 @@
         "bpm":  120,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #002 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "003",
+        "date":  "2026-09-06",
+        "title":  "Terminal_721_Corrupted",
+        "filename":  "2026-09-06_Terminal_721_Corrupted.wav",
+        "audio_path":  "audio/2026-09-06_Terminal_721_Corrupted.wav",
+        "note_path":  "notes/2026-09-06_Terminal_721_Corrupted.md",
+        "duration_sec":  15,
+        "bpm":  120,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #003 with D Diminished / Corrupted Minor."
     }
 ]
