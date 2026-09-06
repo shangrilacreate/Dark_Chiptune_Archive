@@ -34,5 +34,17 @@
         "bpm":  120,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #003 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "004",
+        "date":  "2026-09-07",
+        "title":  "Cipher_293_NullPointer",
+        "filename":  "2026-09-07_Cipher_293_NullPointer.wav",
+        "audio_path":  "audio/2026-09-07_Cipher_293_NullPointer.wav",
+        "note_path":  "notes/2026-09-07_Cipher_293_NullPointer.md",
+        "duration_sec":  15,
+        "bpm":  60,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #004 with D Diminished / Corrupted Minor."
     }
 ]
