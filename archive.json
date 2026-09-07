@@ -46,5 +46,17 @@
         "bpm":  60,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #004 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "005",
+        "date":  "2026-09-08",
+        "title":  "Corrupt_631_MemoryLeak",
+        "filename":  "2026-09-08_Corrupt_631_MemoryLeak.wav",
+        "audio_path":  "audio/2026-09-08_Corrupt_631_MemoryLeak.wav",
+        "note_path":  "notes/2026-09-08_Corrupt_631_MemoryLeak.md",
+        "duration_sec":  15,
+        "bpm":  90,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #005 with D Diminished / Corrupted Minor."
     }
 ]
