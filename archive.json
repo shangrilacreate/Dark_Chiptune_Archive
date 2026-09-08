@@ -58,5 +58,17 @@
         "bpm":  90,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #005 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "006",
+        "date":  "2026-09-09",
+        "title":  "Node_657_Anomaly",
+        "filename":  "2026-09-09_Node_657_Anomaly.wav",
+        "audio_path":  "audio/2026-09-09_Node_657_Anomaly.wav",
+        "note_path":  "notes/2026-09-09_Node_657_Anomaly.md",
+        "duration_sec":  15,
+        "bpm":  60,
+        "scale":  "A Phrygian Dominant (Dark Apocalyptic)",
+        "description":  "Archive track #006 with A Phrygian Dominant (Dark Apocalyptic)."
     }
 ]
