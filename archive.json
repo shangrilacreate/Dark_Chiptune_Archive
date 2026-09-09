@@ -70,5 +70,17 @@
         "bpm":  60,
         "scale":  "A Phrygian Dominant (Dark Apocalyptic)",
         "description":  "Archive track #006 with A Phrygian Dominant (Dark Apocalyptic)."
+    },
+    {
+        "id":  "007",
+        "date":  "2026-09-10",
+        "title":  "Void_105_ZeroDay",
+        "filename":  "2026-09-10_Void_105_ZeroDay.wav",
+        "audio_path":  "audio/2026-09-10_Void_105_ZeroDay.wav",
+        "note_path":  "notes/2026-09-10_Void_105_ZeroDay.md",
+        "duration_sec":  15,
+        "bpm":  60,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #007 with D Diminished / Corrupted Minor."
     }
 ]
