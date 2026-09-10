@@ -82,5 +82,17 @@
         "bpm":  60,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #007 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "008",
+        "date":  "2026-09-11",
+        "title":  "Matrix_662_MemoryLeak",
+        "filename":  "2026-09-11_Matrix_662_MemoryLeak.wav",
+        "audio_path":  "audio/2026-09-11_Matrix_662_MemoryLeak.wav",
+        "note_path":  "notes/2026-09-11_Matrix_662_MemoryLeak.md",
+        "duration_sec":  15,
+        "bpm":  90,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #008 with D Diminished / Corrupted Minor."
     }
 ]
