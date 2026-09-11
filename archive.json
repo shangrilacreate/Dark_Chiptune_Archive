@@ -94,5 +94,17 @@
         "bpm":  90,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #008 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "009",
+        "date":  "2026-09-12",
+        "title":  "Buffer_388_Abyss",
+        "filename":  "2026-09-12_Buffer_388_Abyss.wav",
+        "audio_path":  "audio/2026-09-12_Buffer_388_Abyss.wav",
+        "note_path":  "notes/2026-09-12_Buffer_388_Abyss.md",
+        "duration_sec":  15,
+        "bpm":  90,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #009 with D Diminished / Corrupted Minor."
     }
 ]
