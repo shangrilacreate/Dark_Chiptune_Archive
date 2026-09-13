@@ -106,5 +106,17 @@
         "bpm":  90,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #009 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "010",
+        "date":  "2026-09-14",
+        "title":  "Relic_416_Decay",
+        "filename":  "2026-09-14_Relic_416_Decay.wav",
+        "audio_path":  "audio/2026-09-14_Relic_416_Decay.wav",
+        "note_path":  "notes/2026-09-14_Relic_416_Decay.md",
+        "duration_sec":  15,
+        "bpm":  120,
+        "scale":  "D Diminished / Corrupted Minor",
+        "description":  "Archive track #010 with D Diminished / Corrupted Minor."
     }
 ]
