@@ -118,5 +118,17 @@
         "bpm":  120,
         "scale":  "D Diminished / Corrupted Minor",
         "description":  "Archive track #010 with D Diminished / Corrupted Minor."
+    },
+    {
+        "id":  "011",
+        "date":  "2026-09-14",
+        "title":  "Relic_268_Static",
+        "filename":  "2026-09-14_Relic_268_Static.wav",
+        "audio_path":  "audio/2026-09-14_Relic_268_Static.wav",
+        "note_path":  "notes/2026-09-14_Relic_268_Static.md",
+        "duration_sec":  15,
+        "bpm":  120,
+        "scale":  "C Whole Tone (Floating Cyber Disconnect)",
+        "description":  "Archive track #011 with C Whole Tone (Floating Cyber Disconnect)."
     }
 ]
